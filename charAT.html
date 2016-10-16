@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<script>
+    // 'user strict';
+    let warn=alert;
+    window.alert=(t)=>{
+        if(confirm('how are you')) warn(t);
+    }
+    alert('help me !!!');
+
+</script>
+<body>
+    
+</body>
+</html>
